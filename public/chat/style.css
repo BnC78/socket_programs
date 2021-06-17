@@ -1,0 +1,61 @@
+body {
+    background:black;
+    height: 100%;
+    font-size: 20px;
+}
+
+#container {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #aaa;
+    border: 2px solid DodgerBlue;
+}
+
+#sent-messages {
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #ccc;
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: 5px 10px 3px 0px #888, 0 0 10px #888 inset;
+}
+
+#sent-messages>p {
+    margin: 0;
+}
+
+#message-box {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 40px;
+    padding-top: 25px;
+}
+
+#message {
+    width: 85%;
+    height: 100%;
+    margin-right: 2.5%;
+    font-size: 20px;
+    box-shadow: 5px 10px 3px 0px  #888;
+}
+
+#send {
+    color: #ddd;
+    width: 10%;
+    height: 100%;
+    background-color: DodgerBlue;
+    font-size: 25px;
+    font-weight: 1000;
+    content: '>';
+    line-height: 25px;
+    box-shadow: 5px 10px 3px 0px  #888;
+}
+
+#send:hover {
+    background-color:RoyalBlue;
+    cursor: pointer;
+}
